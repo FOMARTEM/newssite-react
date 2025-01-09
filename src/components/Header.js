@@ -3,7 +3,7 @@ import React from "react";
 const Header = ({ user, onLogout, setView }) => {
   return (
     <header>
-      <h1>News Site</h1>
+      <h1>Новостной сайт</h1>
       <nav>
         {!user ? (
           <>

@@ -9,12 +9,15 @@ const Posts = () => {
   }, []);
 
   return (
-    <div>
-      <h2>All Posts</h2>
+    <div class="center-text">
+      <h2>Посты:</h2>
       {posts.map((post) => (
         <article key={post.id}>
+          <div>
           <h3>{post.title}</h3>
           <p>{post.body}</p>
+          <p>Пост создан: {post.createdate}, пользователем №{post.userid}</p>  
+          </div>
         </article>
       ))}
     </div>
