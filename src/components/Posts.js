@@ -16,7 +16,7 @@ const Posts = () => {
           <div>
           <h3>{post.title}</h3>
           <p>{post.body}</p>
-          <p>Пост создан: {post.createdate}, пользователем №{post.userid}</p>  
+          <p>Пост создан: {post.createdate}, пользователем №{post.userid}</p>
           </div>
         </article>
       ))}
